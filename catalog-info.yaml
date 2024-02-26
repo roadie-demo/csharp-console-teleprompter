@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csharp-console-teleprompter
+  title: csharp-console-teleprompter
+  description: A demo CSharp application
+  annotations:
+    github.com/project-slug: roadie-demo/csharp-console-teleprompter
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+spec:
+  type: service
+  owner: group:default/pov
+  lifecycle: production

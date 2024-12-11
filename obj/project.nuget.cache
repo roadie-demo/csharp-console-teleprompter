@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HFm6unulG0caDXHeMIeLcf/lwOm2tyWyKavzJDVYI6kAjp8BoYqZ59KzkkjlJSJSAibuxcvvQAilNe+vG57xJQ==",
+  "dgSpecHash": "nrCLa2N8jOZrhNI1Mb0x4pYCIDNbZCSFR5CVPjVU80fEFdNt/zN+4+Nn0S4hlvEFpYe2RyDoSq3UotQyKseuDQ==",
   "success": true,
   "projectFilePath": "/home/ianlink/Repos/sample-components/csharp-console-teleprompter/csharp-console-teleprompter.csproj",
   "expectedPackageFiles": [
+    "/home/ianlink/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/coverlet.msbuild/6.0.2/coverlet.msbuild.6.0.2.nupkg.sha512",
     "/home/ianlink/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "/home/ianlink/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/ianlink/.nuget/packages/microsoft.entityframeworkcore/3.1.2/microsoft.entityframeworkcore.3.1.2.nupkg.sha512",
@@ -20,12 +22,22 @@
     "/home/ianlink/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.2/microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
     "/home/ianlink/.nuget/packages/microsoft.extensions.options/3.1.2/microsoft.extensions.options.3.1.2.nupkg.sha512",
     "/home/ianlink/.nuget/packages/microsoft.extensions.primitives/3.1.2/microsoft.extensions.primitives.3.1.2.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/moq/4.20.70/moq.4.20.70.nupkg.sha512",
     "/home/ianlink/.nuget/packages/system.collections.immutable/1.7.0/system.collections.immutable.1.7.0.nupkg.sha512",
     "/home/ianlink/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/home/ianlink/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
-    "/home/ianlink/.nuget/packages/microsoft.netcore.app.ref/6.0.28/microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "/home/ianlink/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.28/microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "/home/ianlink/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.28/microsoft.netcore.app.host.linux-x64.6.0.28.nupkg.sha512"
+    "/home/ianlink/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit/2.8.1/xunit.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.analyzers/1.14.0/xunit.analyzers.1.14.0.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.assert/2.8.1/xunit.assert.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.core/2.8.1/xunit.core.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.extensibility.core/2.8.1/xunit.extensibility.core.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.extensibility.execution/2.8.1/xunit.extensibility.execution.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/xunit.runner.visualstudio/2.8.1/xunit.runner.visualstudio.2.8.1.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/microsoft.netcore.app.ref/6.0.35/microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.35/microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "/home/ianlink/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.35/microsoft.netcore.app.host.linux-x64.6.0.35.nupkg.sha512"
   ],
   "logs": []
 }

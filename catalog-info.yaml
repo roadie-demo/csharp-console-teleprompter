@@ -11,5 +11,36 @@ metadata:
     
 spec:
   type: service
-  owner: group:default/pov
+  owner: group:roadie-demo/solutions
   lifecycle: production
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: teleprompter-s3-bucket
+  description: The s3 bucket with the teleprompter data in it. Doesn't really exist.
+spec:
+  type: s3-bucket
+  owner: group:roadie-demo/engineering
+  system: teleprompter-system
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: teleprompter-domain
+  description: Teleprompter things to teleprompt.
+spec:
+  owner: group:roadie-demo/engineering
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Teleprompter System
+  name: teleprompter-system
+  description: Teleprompter things to teleprompt.
+spec:
+  owner: group:roadie-demo/engineering
+  domain: teleprompter-domain

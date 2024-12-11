@@ -2,7 +2,7 @@ using static System.Math;
 
 namespace TeleprompterConsole;
 
-internal class TelePrompterConfig
+public class TelePrompterConfig
 {
     public int DelayInMilliseconds { get; private set; } = 200;
 

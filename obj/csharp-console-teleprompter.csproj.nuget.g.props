@@ -12,4 +12,12 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/home/ianlink/.nuget/packages/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.8.1/build/net6.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.8.1/build/net6.0/xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.8.1/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.8.1/build/xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)coverlet.msbuild/6.0.2/build/coverlet.msbuild.props" Condition="Exists('$(NuGetPackageRoot)coverlet.msbuild/6.0.2/build/coverlet.msbuild.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/home/ianlink/.nuget/packages/xunit.analyzers/1.14.0</Pkgxunit_analyzers>
+  </PropertyGroup>
 </Project>

@@ -13,6 +13,10 @@ spec:
   type: service
   owner: group:roadie-demo/solutions
   lifecycle: production
+  system: teleprompter-system
+  dependsOn:
+    - Component:sample-service
+    - Resource:teleprompter-s3-bucket
 
 ---
 apiVersion: backstage.io/v1alpha1

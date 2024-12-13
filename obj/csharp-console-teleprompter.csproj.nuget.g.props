@@ -19,5 +19,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/home/ianlink/.nuget/packages/xunit.analyzers/1.14.0</Pkgxunit_analyzers>
+    <PkgSentry Condition=" '$(PkgSentry)' == '' ">/home/ianlink/.nuget/packages/sentry/4.13.0</PkgSentry>
   </PropertyGroup>
 </Project>

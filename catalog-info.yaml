@@ -8,6 +8,7 @@ metadata:
     github.com/project-slug: roadie-demo/csharp-console-teleprompter
     backstage.io/techdocs-ref: dir:. 
     circleci.com/project-slug: github/roadie-demo/csharp-console-teleprompter
+    pagerduty.com/schedule-id: PVPDKQT
     
 spec:
   type: service
